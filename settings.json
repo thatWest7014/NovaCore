@@ -1,0 +1,87 @@
+{
+    "currentreleasename":"epsilon",
+    "useremotedb": true,
+    "usegitlabflags": false,
+    "allowremoteconfig": true,
+    "debugmode": false,
+    "allowremoteshellexec": true,
+    "slashcommandsenabled": true,
+    "extendedlogs": true,
+    "operator": {
+        "username": "west7014",
+        "userId": "600464355917692952"
+    },
+    "moduleshavepriority": true,
+    "checklatestversion": false,
+    "watchdogcfg":{
+        "enabled":true,
+        "alertdisabled":true,
+        "lv":5,
+        "modules":{
+            "netmonitor":true,
+            "perfmonitor":true,
+            "opsmonitor":true
+        }
+    },
+    "modules": {
+        "statuspageupdates": true,
+        "statuspagecore": true,
+        "spotify": true,
+        "vexrobotics": true,
+        "github": true,
+        "gitlab": true,
+        "youtube": true,
+        "roblox": true,
+        "minecraft": true
+    },
+    "apis": {
+        "roblox": true,
+        "github": true,
+        "gitlab": true,
+        "youtube": true,
+        "spotify": true,
+        "vexrobotics": true,
+        "minecraft": true
+    },
+    "msgwebhooks": {
+        "sharding": true,
+        "startmsg": true
+    },
+    "shardingcfg":{
+        "userecomended":false,
+        "shardcount": 1,
+        "spawndelay": false,
+        "autorespawn": true,
+        "batchsize": 1
+    },
+    "forcewhitelist": false,
+    "slashcmdwhitelist": [
+        "SLASH_COMMAND_ID_HERE"
+    ],
+    "devcmdsenabled":true,
+    "NovaAPI-Config":{
+        "APIPATH":"https://thatwest7014.pages.dev/API/Nova",
+        "allowdirectresponses":true
+    },
+    "allowcompv2": true,
+    "ports":{
+        "DevDash":[
+            65525,
+            65524,
+            65523,
+            65522,
+            65521
+        ],
+        "NovaAPI":28878,
+        "StatusAPI": 65505,
+        "ShardMngr": 65515,
+        "Shard":{
+            "min":30500,
+            "max":60500
+        }
+    },
+    "executionmethod":"strict",
+    "appcfg": {
+        "automaticupdates":true
+    }
+}
