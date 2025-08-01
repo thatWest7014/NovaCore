@@ -4,7 +4,6 @@ dotenv.config();
 const cfg = require('../settings.json');
 const express = require('express');
 const app = express();
-require('../core/global/statuspage'); // hypothetical module
 
 const shardTotal = cfg.shardingcfg.shardcount;
 const port = cfg.ports.StatusAPI;
